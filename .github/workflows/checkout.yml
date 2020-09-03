@@ -1,0 +1,7 @@
+name: Fake CI
+on: push
+jobs:
+  fake-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 5 && echo "done"
